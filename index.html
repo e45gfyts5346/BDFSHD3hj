@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MRx — Визитка компании</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="site-header">
+        <div class="logo">MRx</div>
+        <nav class="nav">
+          <a href="#about">О нас</a>
+          <a href="#services">Услуги</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+      </header>
+
+      <section class="hero" id="home">
+        <div class="hero-inner">
+          <h1 class="title">MRx</h1>
+          <p class="subtitle">
+            Современные цифровые решения с акцентом на дизайн, 3D и эффектные
+            интерфейсы.
+          </p>
+          <div class="buttons">
+            <a class="btn primary" href="#contact">Связаться</a>
+            <a class="btn ghost" href="#services">Наши услуги</a>
+          </div>
+        </div>
+
+        <div class="scene" id="scene" aria-hidden="true">
+          <div class="card card--big" data-tilt>
+            <h3>Инновации</h3>
+            <p>Технологии и стиль в каждой детали.</p>
+          </div>
+          <div class="card card--med" data-tilt>
+            <h3>Качество</h3>
+            <p>Разработка с вниманием к UX и визуалу.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container">
+          <h2 class="section-title">О нас</h2>
+          <div class="card info-card">
+            <p>
+              MRx — команда разработчиков и дизайнеров, создающая впечатляющие
+              фронтенд-решения с анимацией, 3D-эффектами и высочайшей скоростью
+              работы. Мы делаем интерфейсы, которые вдохновляют.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services">
+        <div class="container">
+          <h2 class="section-title">Наши услуги</h2>
+          <div class="grid">
+            <div class="service" data-tilt>
+              <h3>Веб-разработка</h3>
+              <p>
+                Лендинги, SPA и адаптивные интерфейсы с анимацией и
+                оптимизацией.
+              </p>
+            </div>
+            <div class="service" data-tilt>
+              <h3>3D & Motion</h3>
+              <p>
+                Интерактивная графика, WebGL, параллакс и современные эффекты.
+              </p>
+            </div>
+            <div class="service" data-tilt>
+              <h3>UI/UX дизайн</h3>
+              <p>Дизайн-системы, прототипирование и фирменный стиль.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h2 class="section-title">Контакты</h2>
+          <p class="contact-text">
+            Готовы обсудить проект? Напишите или позвоните — мы открыты к
+            сотрудничеству.
+          </p>
+          <div class="contact-cards">
+            <div class="contact-card" data-tilt>
+              <h4>Телефон</h4>
+              <a class="tel" href="tel:+375255507018">+375(25)-550-70-18</a>
+            </div>
+            <div class="contact-card" data-tilt>
+              <h4>Email</h4>
+              <a href="nazarzodamurod929@gmail.com"
+                >nazarzodamurod929@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>© <span id="year"></span> MRx — все права защищены</p>
+      </footer>
+    </main>
+
+    <!-- fixed phone -->
+    <a class="floating-phone" href="tel:+375255507018">+375(25)-550-70-18</a>
+
+    <script src="main.js"></script>
+  </body>
+</html>
